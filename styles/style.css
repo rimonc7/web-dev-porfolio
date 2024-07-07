@@ -105,7 +105,7 @@ nav ul {
     background-color: #FD6E0A;
     border: none;
     width: 200px;
-    height: 64px;
+    height: 60px;
     font-size: 20px;
     color: white;
     font-weight: 700;
@@ -193,4 +193,73 @@ main{
 .skill-items{
     margin-top: 130px;
     margin-bottom: 120px;
+}
+
+.resume-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.resume-subtitle{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.resume-position{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.resume-description{
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+    margin-top: 20px;
+}
+
+.resume-heading{
+    text-align: center;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.resume-box{
+   max-width: fit-content;
+   max-height: fit-content;
+}
+
+.last-btn{
+text-align: center;
+margin-top:40px;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"],  footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
